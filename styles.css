@@ -126,3 +126,59 @@ p{
   max-height: 200px;
   max-width: 300px;
 }
+
+/* ########### Section Three ########### */
+
+.sectionThree{
+  min-height: 75vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--dark-blue);
+}
+
+.testimonialContainer{
+  max-width: 375px;
+  min-height: 275px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow:2px 3px 12px 6px rgba(0,0,0,0.41);
+  background-color: #fff;
+}
+
+.name{
+  font-weight: 700;
+  color: var(--dark-blue);
+  padding: 10px 0px;
+}
+
+.quoteContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.quoteImg{
+  display: flex;
+  justify-content: end;
+  padding: 15px;
+}
+
+.quoteContainer img{
+  max-height: auto;
+  max-width: 30px;
+}
+
+.portrait{
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+.satisfied{
+  color: #1a936f;
+}
+
+/* ############# Section Four ############ */
