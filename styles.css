@@ -62,7 +62,7 @@ h2{
   margin: -50px;
 }
 
-p{
+.sOneTitle{
   color: var(--dark-blue);
   padding: 15px;
 }
@@ -94,7 +94,6 @@ p{
 
 .sectionTwo{
   display:flex;
-  border: solid black 3px;
   min-height: 75vh;
 }
 
@@ -129,6 +128,15 @@ p{
 
 /* ########### Section Three ########### */
 
+#sThreeMainContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 75vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .sectionThree{
   min-height: 75vh;
   display: flex;
@@ -137,9 +145,26 @@ p{
   background-color: var(--dark-blue);
 }
 
+.anotherContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.sectionThreeTitle p{
+  font-size: 48px;
+  color: var(--light-text-color);
+}
+
+.sectionThreetitle{
+  display: flex;
+  border: solid black 5px;
+  width: 90vw;
+}
+
 .testimonialContainer{
-  max-width: 375px;
-  min-height: 275px;
+  max-width: 25vw;
+  min-height: 35vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,3 +207,63 @@ p{
 }
 
 /* ############# Section Four ############ */
+
+.sectionFour{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionFourContainer{
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid var(--dark-blue) 3px;
+  width: 80vw;
+  height: 50vh;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+.achievements{
+  height: 40vh;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper{
+  display: flex;
+}
+
+.achievements img{
+  max-width: 10vw;
+}
+
+#enlarge{
+  min-width: 25vw;
+}
+
+/* ########### Footer ########### */
+
+footer{
+  width: 100vw;
+  height: 10vh;
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+footer span{
+  color: var(--light-text-color);
+}
