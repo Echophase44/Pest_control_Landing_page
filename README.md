@@ -1,7 +1,7 @@
 # Pest_control_Landing_page
 
 <p align="center">
-  <img src="./images/Pest_control_site_image.png" width="600"/>
+  <img src="./images/Pest_control_site_image.PNG" width="600"/>
 </p>
 
 ## Outline
