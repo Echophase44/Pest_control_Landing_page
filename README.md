@@ -24,3 +24,4 @@ I wanted to create a modern, minimalistic, pest control site. As well as try out
 - Woman photo: Nathanel Love at Pixabay
 - Female Photo: by Terrell Turner at Pixabay
 - Male Photo: by v0xx0x Pixabay
+- Signup Form Beetle Image: by Егор Камелев at Pixabay
