@@ -17,9 +17,27 @@ body{
   display: flex;
 }
 
-form{
+.inputContainer{
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 3vw;
+}
+
+.input{
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.formTitle{
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 img {

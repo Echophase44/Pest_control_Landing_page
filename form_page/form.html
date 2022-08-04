@@ -13,9 +13,41 @@
     <div>
       <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ex veniam sequi quo alias odio! Deserunt excepturi alias quia voluptates officiis dolore natus et, a voluptatum, sed, magni sint.</h2>
     </div>
-    <form action="" method="post">
-      <label for="firstName">First Name</label>
-      <input type="text">
+
+    <form action="#" method="post">
+      <div class="inputContainer">
+        <p class="formTitle">Let's do this!</p>
+
+        <div class="input">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="first_name" required>
+        </div>
+
+        <div class="input">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="last_name" required>
+        </div>
+
+        <div class="input">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="input">
+          <label for="phoneNumber">Phone Number</label>
+          <input type="number" name="phoneNumber" id="phoneNumber" minlength="9" maxlength="9">
+        </div>
+
+        <div class="input">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" minlength="8" maxlength= "24" required>
+        </div>
+
+        <div class="input">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" name="confirmPassword" id="confirmPassword" minlength="8" maxlength= "24" required>
+        </div>
+    </div>
     </form>
     <div></div>
   </section>
