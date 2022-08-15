@@ -2,7 +2,7 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  font-family: "Overpass Mono", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -17,6 +17,13 @@ body{
   display: flex;
 }
 
+.topText{
+  width: 60vw;
+  border-radius: 5px solid;
+  margin: 75px 0px;
+  padding-left: 3vw;
+}
+
 .inputContainer{
   display: flex;
   flex-flow: row wrap;
@@ -24,6 +31,7 @@ body{
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 3vw;
+  width: 90%;
 }
 
 .input{
@@ -34,19 +42,37 @@ body{
   text-transform: uppercase;
 }
 
+label{
+  font-size: .9rem;
+}
+
 .formTitle{
   width: 100%;
   font-weight: 600;
   font-size: 1.2rem;
 }
 
-img {
+img{
   width: 40%;
   height: 100vh;
 }
 
-#main {
+#main{
   background-color: var(--dark-blue);
   width: 60%;
   height: auto;
 }
+
+.accountButton{
+  padding-left: 3vw;
+}
+
+button{
+  font-weight: 700;
+  font-size: 1.2em;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 10px 40px;
+  margin: 40px 0;
+}
+
