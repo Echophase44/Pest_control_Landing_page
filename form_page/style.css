@@ -17,15 +17,32 @@ body{
   display: flex;
 }
 
-img{
-  width: 40%;
+.picture{
+  background-image: url(../images/form-beetle.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40vw;
   height: 100vh;
 }
 
 .logo{
-  
+  position: relative;
+  background-color: rgb(17, 75, 95, .7);
+  top: 13vh;
+  padding: 15px 0px;
+  text-align: center;
 }
 
+h1{
+  color:var(--light-text-color);
+}
+
+#main{
+  background-color: #E5E7EB;
+  width: 60%;
+  height: auto;
+}
 
 .topText{
   width: 60vw;
@@ -42,7 +59,7 @@ img{
   padding: 40px 0px;
   padding-left: 3vw;
   width: 100%;
-  box-shadow: 1px 0px 4px 0px rgba(0,0,0,0.3);
+  box-shadow: 1px 4px 10px 0px rgba(0,0,0,0.3);
   color: var(--light-text-color);
   background-color: var(--dark-blue);
 }
@@ -64,10 +81,11 @@ input{
 
 input:focus{
   outline: none;
+  border: 2px solid var(--lime-green);
 }
 
 label{
-  font-size: .9rem;
+  font-size: .7rem;
 }
 
 .formTitle{
@@ -76,11 +94,6 @@ label{
   font-size: 1.2rem;
 }
 
-#main{
-  background-color: #E5E7EB;
-  width: 60%;
-  height: auto;
-}
 
 .accountButton{
   padding-left: 3vw;
@@ -110,3 +123,12 @@ span{
   padding-left: 3vw;
 }
 
+a{
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+a:hover{
+  color: var(--dark-green)
+}
